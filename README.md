@@ -3,4 +3,4 @@ Get a persons face as input, let user choose between using cnn or transfer learn
 
 Dataset taken from https://susanqq.github.io/UTKFace/
 
-Project in Develipment
+Project in Development
