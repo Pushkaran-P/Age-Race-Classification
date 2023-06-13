@@ -7,5 +7,5 @@ Project in Development
 
 Personal Notes For Now: 
 
-How do I remove these two warnings libpng warning: iCCP: known incorrect sRGB profile, Corrupt JPEG data: bad Huffman code ?
-Data is very imbalanced
+- How do I remove these two warnings libpng warning: iCCP: known incorrect sRGB profile, Corrupt JPEG data: bad Huffman code 
+- Data is very imbalanced
