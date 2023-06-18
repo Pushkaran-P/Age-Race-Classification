@@ -3,9 +3,9 @@ Task - Get a persons face as input, let user choose between using cnn or transfe
 
 Dataset taken from https://susanqq.github.io/UTKFace/
 
-Project in Development
+50% Macro  F1 score for now
 
 Personal Notes For Now: 
 
-- How do I remove these two warnings libpng warning: iCCP: known incorrect sRGB profile, Corrupt JPEG data: bad Huffman code 
-- Data is very imbalanced
+- How to improve accuracy
+- Are there any other things i can do to decrease imbalance
