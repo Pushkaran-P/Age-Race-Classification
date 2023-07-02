@@ -5,7 +5,7 @@ Dataset taken from https://susanqq.github.io/UTKFace/
 
 50% Macro  F1 score for now
 
-Personal Notes For Now: 
+To do list: 
 
-- How to improve accuracy
+- How to push Macro F1 beyond 50% 
 - Are there any other things i can do to decrease imbalance
