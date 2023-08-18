@@ -1,5 +1,5 @@
 # Age-Race-Classification
-Task - Age group prediction, given an image of one or multiple people predict their respective age groups
+Task - Predict the age group of individuals from an image, which may contain one or multiple people, and determine their respective age groups, binned in sizes of six.
 
 Raw Dataset - https://susanqq.github.io/UTKFace/
 
@@ -7,4 +7,6 @@ Age_folder_creation - Create folders for all images extracted and all cropped im
 
 Age_image_Data - Create image array, perform oversampling using SMOTE and random undersampling to balance out class size
 
-Age_model - CNN model for prediction
+Age_model - CNN model for prediction, gives 64,65% train and test acc for now 
+
+Current Task - Study further pre-processing techniques, implement batch norm and try change model architecure
