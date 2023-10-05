@@ -9,4 +9,4 @@ Age_image_Data - Create image array, perform oversampling using SMOTE and random
 
 Age_model - CNN model for prediction, gives 64,65% train and test acc for now 
 
-Current Task - Study further pre-processing techniques, implement batch norm and try change model architecure
+Current Task - Multi Scale Training or Pad black pixels (which place should i use gan ?)
