@@ -3,10 +3,12 @@ Task - Predict the age group of individuals from an image, which may contain one
 
 Raw Dataset - https://susanqq.github.io/UTKFace/
 
-Age_folder_creation - Create folders for all images extracted and all cropped images of faces using dlib frontal face detector, INTER_AREA interpolation for shirinking dimensions, cubic for enlarging
+Previously : Using SMOTE for resampling, bad as SMOTE creates noisy data, spatial inforamtion lost
 
-Age_image_Data - Create image array, perform oversampling using SMOTE and random undersampling to balance out class size
-
-Age_model - CNN model for prediction, gives 64,65% train and test acc for now 
-
-Current Task - Multi Scale Training or Pad black pixels (which place should i use gan ?)
+Flow options : (Cannot send images of varying dimensions as batch, numpy is a bit.. so forget FCN and SPP ) Use transfer learning or normal cnn ?
+  1. Padding with black pixels to max height, max width. Transfer Learning
+  2. Same as above sampling with GAN
+  3. Multi Scale training by interpolating images to their nearest 100 then transfer learning
+  4. Same as above sampling with GAN
+  5. Progressive resizing then transfer learning
+  6. Same as above sampling with GAN
