@@ -8,7 +8,5 @@ Previously : Using SMOTE for resampling, bad as SMOTE creates noisy data, spatia
 Flow options : (Cannot send images of varying dimensions as batch, numpy is a bit.. so forget FCN and SPP )
   1. Padding with black pixels to max height, max width then cnn/ Transfer Learning 
   2. Same as above sampling with GAN
-  3. Multi Scale training by interpolating images to their nearest 100 then cnn/transfer learning
-  4. Same as above sampling with GAN
   5. Progressive resizing then transfer learning
   6. Same as above sampling with GAN
