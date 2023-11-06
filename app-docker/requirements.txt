@@ -1,0 +1,10 @@
+mtcnn
+fastapi[all]
+python-multipart
+starlette
+jinja2
+Pillow
+requests
+opencv-python-headless
+numpy
+tensorflow
