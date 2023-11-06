@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <button type="submit">Upload</button>
+    </form>
+    
+    <h1>Or</h1>
+    
+    <h1>Upload an Image using URL</h1>
+    <form action="/upload-url" method="post">
+        <input type="text" name="image_url" placeholder="Enter image URL">
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>

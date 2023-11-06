@@ -1,0 +1,47 @@
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    {% for filename, prediction in results %}
+        <img src="/static/images/{{filename}}" alt="Cropped Image">
+        <p>Prediction: {{prediction}}</p>
+    {% endfor %}
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        .result-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .result-item {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Result</h1>
+    <div class="result-container">
+        {% for filename, prediction in results %}
+            <div class="result-item">
+                <img src="/static/images/{{filename}}" alt="Cropped Image">
+                <p>Prediction: {{prediction}}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <!-- Exit Button -->
+    <button onclick="window.close()">Exit</button>
+</body>
+</html>
