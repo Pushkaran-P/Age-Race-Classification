@@ -1,0 +1,6 @@
+9/11/23:
+- Decide to introspect into data further and find out dataset is imbalanced again, so apply changes to code
+- Learn about balanced label distribution in a batch and decide to acheive it, also realise the other distributions of gender and race must be balanced as well
+- Each race and gender has a different rate of ageing which will impact age (correlation)
+- Make code to undersample and acheive perfect data distribution in classes 3 and 4 but count is too less
+- Why not acheive perfect data distribution in 0,3,4 and then look at undersampling ?
