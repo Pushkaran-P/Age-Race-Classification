@@ -4,4 +4,6 @@
 - Each race and gender has a different rate of ageing which will impact age (correlation)
 - Make code to undersample and acheive perfect data distribution in classes 3 and 4 but count is too less
 - Acheived perfect data distribution in 0,3,4 and all classes results are [240, 136, 120, 776, 1808], for context the original class counts are [1568,616,769,1777,4234]
--
+
+10/11/23 :
+- Achieved 49% train and test macrof1 performance which is the highest so far, but how do i improve it ? There is very less data for some cases as well
