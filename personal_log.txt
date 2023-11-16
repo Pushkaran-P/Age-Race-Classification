@@ -7,3 +7,12 @@
 
 10/11/23 :
 - Achieved 49% train and test macrof1 performance which is the highest so far, but how do i improve it ? There is very less data for some cases as well
+- Out of curiosity i checked the individual f1 scores and 4 out of 5 classes were not predicted ?? something is very wrong
+- I tried changed the metric from Macrof1 to aucroc and im getting errors something is fundamentally broken in my model code
+
+13/11/23
+- A tiny mistake in my generator class which failed to account samples < batchsize
+- Model performs very badly, with 20% macrof1, need more data
+
+14/11/23
+- Read about StyleGAN, Cgan, indefinite break
