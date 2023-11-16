@@ -9,4 +9,4 @@ Flow options : (Cannot send images of varying dimensions as batch, numpy is a bi
   1. Use GAN (check personal log)
   2. Progressive resizing
   3. Adaptive pooling
-Future : Hyperparameter Tuning
+Future : Hyperparameter Tuning, Deploy container with Mlfloe + kserve ?
